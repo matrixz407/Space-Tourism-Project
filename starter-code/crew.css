@@ -1,0 +1,100 @@
+
+body{
+    /* width: 100%; */
+    /* height: 100vh; */
+    background-image: url(assets/crew/background-crew-desktop.jpg);
+
+}
+
+
+.logo{
+    width: 48px;
+    height: 48px;
+}
+.line{
+    border: 1px solid gray;
+    width: 40%;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.navbar .container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container ul li{
+    list-style: none;
+    margin: 20px;
+    position: relative;
+
+} 
+.navbar .container ul li a{
+    color: rgb(184, 179, 179);
+    text-decoration: none;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: rgb(209, 202, 202);
+    position: absolute;
+    left: 0;
+    bottom: -26px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.navlinks{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding-right: 55px;
+    border-radius: 5px;
+    color: rgb(184, 179, 179);
+}
+
+.glass{
+    display: flex;
+    align-items: center;
+background: #fff;
+width: 50%;
+height: 11vh;
+background: linear-gradient(rgba(7, 3, 59, 0.404),rgb(80, 88, 94));  
+
+}
+
+span{
+    font-weight: 1px;
+    padding: 9px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: rgb(228, 220, 220);
+}
+.hero{
+    margin: 50px;
+    padding: 30px;
+    }
+    .hero h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 17px;
+        color: rgb(204, 195, 195);
+        letter-spacing: 4px;
+        margin: 20px;
+        padding-left: 100px;
+    }
+    .hero span{
+        font-weight: 700;
+        margin-inline-start: 0.75em;
+        color: rgb(117, 102, 102);;
+    }
+        
